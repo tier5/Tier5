@@ -3,10 +3,11 @@
 
 
 body {
-    background: url(../images/background.jpg) no-repeat;
+    /*background: url(../images/background.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
+	background-color:#000;ss
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -28,7 +29,7 @@ li {
 }
 
 a {
-    color: #FF432E;
+    color: #25e1ff;
     text-decoration: none;
 }
 
@@ -44,8 +45,8 @@ p {
 
 
 .btn-primary {
-    border-color: #FF432E;
-    background-color: #FF432E;
+    border-color: #25e1ff;
+    background-color: #25e1ff;
     text-transform: uppercase;
     font-weight: 300;
     color: #fff;
@@ -58,14 +59,16 @@ p {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-
+.form-group:focus{
+border-color: #25e1ff;
+}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     color: #fff;
-    border-color: #ea321e;
+    border-color: #25e1ff;
     background-color: none !important;
 }
 
@@ -84,8 +87,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #FF432E;
-    background-color: #FF432E;
+    border-color: #25e1ff;
+    background-color: #25e1ff;
 }
 
 
@@ -127,7 +130,9 @@ fieldset[disabled] .btn-primary.active {
 
 
 /**** Start Background Color ****/
-
+.tier5{
+	background:#25e1ff
+}
 .blue {
     background: #28ABE3;
 }
@@ -137,7 +142,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .red {
-    background: #FF432E;
+    background: #25e1ff;
 }
 
 .light-red {
@@ -172,7 +177,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .menu-item a {
-    color: #fff;
+    color: #000;
     display: block;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
@@ -253,7 +258,7 @@ and (max-width : 1199px) {
 }
 
 .home-slider .carousel-indicators .active {
-	background-color: #FF432E;
+	background-color: #25e1ff;
 }
 
 
@@ -359,7 +364,7 @@ and (max-width : 1199px) {
 .feature i {
    font-size:3.5em;
    color:#fff;
-    background: #FF432E;
+    background: #25e1ff;
     width: 100px;
     height: 100px;
    padding:25px;
@@ -387,7 +392,7 @@ and (max-width : 1199px) {
 		-moz-transition: box-shadow .4s ease-in-out;
 		-o-transition: box-shadow .4s ease-in-out;
 		transition: box-shadow .4s ease-in-out;
-		box-shadow: 0 0 0 0 #FF432E;
+		box-shadow: 0 0 0 0 #25e1ff;
 }
 
 
@@ -461,7 +466,7 @@ and (max-width : 1199px) {
 }
 .about-text li i {
     padding-right: 10px;
-    color: #FF432E;
+    color: #25e1ff;
 }
 
 
@@ -488,7 +493,7 @@ and (max-width : 1199px) {
 }
 
 .progress-bar {
-    background: #FF432E;
+    background: #25e1ff;
   float: left;
   height: 100%;
   font-size: 12px;
@@ -540,7 +545,7 @@ and (max-width : 1199px) {
 
 .custom-tab .nav-tabs.nav-justified {
     margin-bottom: 20px;
-    background: #FF432E;
+    background: #25e1ff;
 }
 
 .custom-tab .nav-tabs.nav-justified > li {
@@ -611,7 +616,7 @@ and (max-width : 991px) {
 
 .plan-name {
 	padding: 15px 0;
-    background: #FF432E;
+    background: #25e1ff;
 }
 
 .plan-name h3 {
@@ -652,7 +657,7 @@ and (max-width : 991px) {
 
 .plan-signup {
 	padding: 25px 0;
-    background: #FF432E;
+    background: #25e1ff;
 }
 
 .plan-signup a {
@@ -689,7 +694,7 @@ and (max-width : 991px) {
 .team-details h4 {
     font-size: 25px;
     font-weight: 300;
-    color: #FF432E;
+    color: #25e1ff;
     font-family: 'Oswald', sans-serif;
     text-transform: none;
     text-align: center;
@@ -714,7 +719,7 @@ and (max-width : 991px) {
 
 .team-details li a {
     padding: 5px 8px;
-    background: #FF432E;
+    background: #25e1ff;
     color: #fff;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -745,11 +750,11 @@ and (max-width : 991px) {
 }
 
 .latest-post h4 a {
-    color: #FF432E;
+    color: #25e1ff;
 }
 
 .latest-post .post-details li {
-    color: #FF432E;
+    color: #25e1ff;
     display: inline;
     font-size: 13px;
     color: #999;
@@ -758,7 +763,7 @@ and (max-width : 991px) {
 
 .latest-post .post-details li i {
     padding-right: 5px;
-    color: #FF432E;
+    color: #25e1ff;
 }
 
 .latest-post p {
@@ -774,7 +779,7 @@ and (max-width : 991px) {
 
 
 .footer-contact-info {
-    background: #FF432E;
+    background: #25e1ff;
     color: #fff;
     padding: 20px 30px;
     //margin-top: 80px;
@@ -810,7 +815,7 @@ and (max-width : 991px) {
 
 .footer-social {
     padding: 78px 0;
-    border: 1px solid #FF432E;
+    border: 1px solid #25e1ff;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -o-border-radius: 3px;
@@ -831,14 +836,14 @@ and (max-width : 991px) {
 }
 
 .footer-social li a {
-    background: #FF432E;
+    background: #25e1ff;
     padding: 8px;
     color: #fff;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -o-border-radius: 2px;
     border-radius: 2px;
-    border: 1px solid #FF432E;
+    border: 1px solid #25e1ff;
     
 }
 
@@ -850,7 +855,7 @@ and (max-width : 991px) {
 
 .footer-social li:hover a {
     background: #fff;
-    //border: 1px solid #FF432E;
+    //border: 1px solid #25e1ff;
     color: #666;
 }
 
@@ -934,7 +939,7 @@ and (max-width : 991px) {
 
 .contact .btn-primary:hover {
     background: transparent;
-    color: #FF432E;
+    color: #25e1ff;
 }
 
 
@@ -953,7 +958,7 @@ and (max-width : 991px) {
 }
 
 .testimonial .speech {
-    background: #FF432E;
+    background: #25e1ff;
     padding: 20px;
     color: #fff;
 }
