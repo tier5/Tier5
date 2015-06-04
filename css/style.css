@@ -129,10 +129,9 @@ fieldset[disabled] .btn-primary.active {
 
 /**** Start Background Color ****/
 .tier5{
-		background-image:  url(../images/mycloud.png);
 
-/*	background:#25e1ff;
-	border-left:#fff 2px solid;
+background:#000;
+	/*	border-left:#fff 2px solid;
 	border-bottom:#fff 2px solid;
 		border-right:#fff 1px solid;
 			border-top:#fff 1px solid;
@@ -184,7 +183,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .menu-item a {
-    color: #000;
+    color:#25e1ff;
+;
     display: block;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
