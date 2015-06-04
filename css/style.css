@@ -3,12 +3,10 @@
 
 
 body {
-    background: url(../images/background.jpg) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
+   
 	/*background-color:#000;*/
     font-family: 'Open Sans', sans-serif;
+
 }
 
 a,
@@ -131,7 +129,16 @@ fieldset[disabled] .btn-primary.active {
 
 /**** Start Background Color ****/
 .tier5{
-	background:#25e1ff
+		background-image:  url(../images/mycloud.png);
+
+/*	background:#25e1ff;
+	border-left:#fff 2px solid;
+	border-bottom:#fff 2px solid;
+		border-right:#fff 1px solid;
+			border-top:#fff 1px solid;
+
+*/
+
 }
 .blue {
     background: #28ABE3;
@@ -167,7 +174,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .menu-item {
-    color: #fff;
+    color: #000;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 30px;
@@ -185,7 +192,7 @@ fieldset[disabled] .btn-primary.active {
 
 .menu-item a p {
     font-family: 'Oswald', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     font-size: 20px;
 }
 
@@ -196,11 +203,11 @@ fieldset[disabled] .btn-primary.active {
 
 .menu-item:hover a {
     text-decoration: none;
-    //color: #333;
+    color: #fff;
 	animation: wobble;
 	-webkit-animation: wobble;
-	animation-duration: 1000ms;
-	-webkit-animation-duration: 1000ms;
+	animation-duration: 1500ms;
+	-webkit-animation-duration: 1500ms;
 }
 
 @media only screen 
@@ -246,11 +253,22 @@ and (max-width : 1199px) {
     
 }
 
+.home-slider{
+}
 
 .home-slider img {
     width: 100%;
     height: auto;
+
 }
+.carousel-inner{
+		border-bottom:#25e1ff 1px solid;
+		border-left:#25e1ff 1px solid;
+		border-top:#25e1ff 3px solid;
+		border-right:#25e1ff 3px solid;
+
+}
+
 
 .home-slider .carousel-indicators {
     position: absolute;
@@ -275,7 +293,7 @@ and (max-width : 1199px) {
 
 .section-modal .modal-content {
     padding: 100px 0 !important;
-    min-height: 100%;
+    mn-height: 100%;
     border: 0 !important;
     border-radius: 0;
     background-clip: border-box;
@@ -983,4 +1001,21 @@ input[type="color"]:focus,
   border-color: #25e1ff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
   outline: 0 none;
+}
+
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 1000% -050%; }
+	
+}
+#animate-area	{ 
+	height:100%;
+	width:auto;
+	background-image:  url(../images/bg-clouds2.png);
+	background-position: 0px 0px;
+	background-repeat: repeat;
+
+	animation: animatedBackground 90s running infinite;
+	 
 }
