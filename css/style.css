@@ -1031,16 +1031,16 @@ input[type="color"]:focus,
 }
 @keyframes animatedBackground {
 	from { background-position: 0 0; }
-	to { background-position: 1000% -050%; }
+	to { background-position: 1000% 500%; }
 	
 }
 #animate-area	{ 
 	height:100%;
 	width:auto;
-	background-image:url(../images/background2.jpg);
+	background-image:url(../images/bg-clouds2.png);
 	background-position: 0px 0px;
 	background-repeat: repeat;
 
-	animation: animatedBackground 90s running infinite;
+	animation: animatedBackground 200s running infinite;
 	 
 }
