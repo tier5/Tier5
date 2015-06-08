@@ -45,6 +45,7 @@ p {
 
 .btn-primary {
     border-color: #25e1ff;
+  
     background-color: #25e1ff;
     text-transform: uppercase;
     font-weight: 300;
@@ -139,6 +140,12 @@ background:#000;
 /*
 */
 
+}
+.tier5:hover{
+	border-left:#000 1px solid;
+	border-bottom:#000 1px solid;
+		border-right:#000 1px solid;
+			border-top:#000 1px solid;
 }
 .blue {
     background: #28ABE3;
