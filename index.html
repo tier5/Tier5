@@ -52,6 +52,9 @@
               	 }
             	);
 			});
+			function close_modal(){
+				//$('#contact-modal').modal('toggle');	
+			}
 		</script>
         	
 			
@@ -262,7 +265,7 @@
                                 <i class="fa fa-paint-brush"></i>
                                 <div class="feature-content">
                                     <h4>Design</h4>
-                                    <p>Design can be a tricky stage in weebsite or mobile app development, often requiring several revisions and modifications to meet our clients' needs. To account for these uncertainties, Tier5 includes a design package in our original estimates.</p>
+                                    <p>Design can be a tricky stage in website or mobile app development, often requiring several revisions and modifications to meet our clients' needs. To account for these uncertainties, Tier5 includes a design package in our original estimates.</p>
                                 </div>
                             </div>
                         </div><!-- /.col-md-3 -->
@@ -525,7 +528,20 @@
                         </div><!-- /.col-md-4 -->
                    </div>
                 </div>
+                <div class="row">
+                	<div class="col-md-4">
+                    
+                    </div>
+                          <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a href="#contact-modal" data-toggle="modal">
+                                <h1 style="text-align:center">Contact Us</h1>
+                            </a>
+                    </div>
                 </div>
+                
+                
+                </div>
+               
                
         </div>
         <!-- End Service Section -->
@@ -858,7 +874,7 @@
                                     <div class="clearfix"></div>
                                     <div class="col-lg-12 text-center">
                                         <div id="success"></div>
-                                        <button type="submit" class="btn btn-primary">Send Message</button>
+                                        <button onclick="close_modal()" type="submit" class="btn btn-primary">Send Message</button>
                                     </div>
                                 </div>
                             </form>
